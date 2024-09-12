@@ -1,0 +1,56 @@
+body{
+    
+    outline: 2px solid red;
+   
+}
+.nav{
+  
+    display: flex;
+    outline: 2px solid rgb(229, 255, 0);
+    min-height: 25px;
+    min-width: 100vh
+    
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 25%;
+    list-style: none;
+    
+}
+
+
+
+#container{
+    display: flex;
+    outline: 2px solid red;
+    margin-left: auto;
+    flex: 1 0 1;
+}
+
+.wheel-container{
+    margin: 0 auto;
+    max-width: 300px;
+    flex: 1 0 1;
+}
+
+#textInput{
+    align-self: center;
+    max-width: 200px;
+    max-height: 20px;
+}
+#btn{
+    min-width: 25px;
+    max-height: 25px;
+    align-self: center;
+    flex: 1 0 1;
+}
+
+#task-container{
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid green;
+    gap: 1px;
+    flex: auto;
+}
